@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор</title>
+    <link rel="stylesheet"  href="main.css">
+</head>
+
+<body>
+    <section>
+    <div>
+        <h1>Формула расчета упущенной выгоды (УВ)</h1>
+        <p>Схематично формулу расчета упущенной выгоды (УВ) в упрощенном варианте можно представить в следующем виде:</p>
+        <p>УВ = ПД * В – СС – (Р – ФД) – М, где:</p>
+        <p>ПД — потенциальный доход;<br>В — возможность получения дохода из-за причинно следственной связи;<br>Р — расходы, сопутствующие полученмю дохода ПД * В при обычной деятельности; <br>ФР — фактически понесённые расходы, сопутствующие получению дохода ПД * В;<br>УВ — доход от митигации(реально полученный или потенциальный).</p>
+    </div>
+
+    <div>
+        <p class="input"> ПД: <input type="text" id="n1"></p>
+        <p class="input">В: <input type="text" id="n2"></p>
+        <p class="input">Р: <input type="text" id="n3"></p>
+        <p class="input">ФР: <input type="text" id="n4"></p>
+        <p class="input">УВ: <input type="text" id="n5"></p>
+    </div>
+
+    <div>
+        <button id="send">Вычислить</button>
+        <h2>Результат:</h2>
+        <p id="res"></p>
+    </div>
+
+    <script src="app.js"></script>
+    </section>
+</body>
+
+</html>
